@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Language="en-US" Id="vscode-ansible" Version="0.3.0" Publisher="zbr"/>
+    <DisplayName>Ansible Language</DisplayName>
+    <Description xml:space="preserve">Ansible YAML schema verification, auto-complete, highlight problems reported by ansible-lint, yamllint.</Description>
+    <Tags>ansible,yaml,autocompletion,validation,YAML,__ext_yml,__ext_yaml,ini,shellscript,__ext_envrc,linters</Tags>
+    <Categories>Programming Languages,Linters</Categories>
+    <GalleryFlags>Public Preview</GalleryFlags>
+    <Badges><Badge Link="https://marketplace.visualstudio.com/items?itemName=zbr.vscode-ansible" ImgUri="https://vsmarketplacebadge.apphb.com/version/zbr.vscode-ansible.svg" Description="Ansible Language Extension" /><Badge Link="https://github.com/ansible-community/vscode-ansible/actions/workflows/ci.yaml" ImgUri="https://img.shields.io/github/workflow/status/ansible-community/vscode-ansible/ci.png" Description="CI/CD Pipeline" /></Badges>
+    <Properties>
+      <Property Id="Microsoft.VisualStudio.Code.Engine" Value="^1.53.0" />
+      <Property Id="Microsoft.VisualStudio.Code.ExtensionDependencies" Value="" />
+      <Property Id="Microsoft.VisualStudio.Code.ExtensionPack" Value="" />
+      <Property Id="Microsoft.VisualStudio.Code.ExtensionKind" Value="workspace" />
+      <Property Id="Microsoft.VisualStudio.Code.LocalizedLanguages" Value="" />
+      
+        <Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/ansible-community/vscode-ansible.git" />
+        <Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="https://github.com/ansible-community/vscode-ansible.git" />
+        
+          <Property Id="Microsoft.VisualStudio.Services.Links.GitHub" Value="https://github.com/ansible-community/vscode-ansible.git" />
+        
+      
+      <Property Id="Microsoft.VisualStudio.Services.Links.Support" Value="https://github.com/ansible-community/vscode-ansible/issues" />
+      
+      
+      
+      <Property Id="Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown" Value="true" />
+      <Property Id="Microsoft.VisualStudio.Services.EnableMarketplaceQnA" Value="false" />
+      
+      
+    </Properties>
+    
+    <Icon>extension/icon/icon128.png</Icon>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Code"/>
+  </Installation>
+  <Dependencies/>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.Code.Manifest" Path="extension/package.json" Addressable="true" />
+    <Asset Type="Microsoft.VisualStudio.Services.Content.Details" Path="extension/README.md" Addressable="true" /><Asset Type="Microsoft.VisualStudio.Services.Content.Changelog" Path="extension/CHANGELOG.md" Addressable="true" /><Asset Type="Microsoft.VisualStudio.Services.Icons.Default" Path="extension/icon/icon128.png" Addressable="true" />
+  </Assets>
+</PackageManifest>

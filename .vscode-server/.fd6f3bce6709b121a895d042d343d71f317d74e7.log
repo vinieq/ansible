@@ -1,0 +1,177 @@
+
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+Extension host agent listening on 34389
+
+[05:51:45] Extension host agent started.
+[05:51:45] [127.0.0.1][1e52a85e][ManagementConnection] New connection established.
+[05:51:45] [127.0.0.1][ced0f38d][ExtensionHostConnection] New connection established.
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+[05:51:45] [127.0.0.1][ced0f38d][ExtensionHostConnection] <3278> Launched Extension Host Process.
+[05:59:44] [127.0.0.1][1e52a85e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[05:59:45] [127.0.0.1][ced0f38d][ExtensionHostConnection] <3278> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[05:59:45] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[05:59:45] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[05:59:45] Cancelling previous shutdown timeout
+[05:59:45] [127.0.0.1][e68f4633][ManagementConnection] New connection established.
+[05:59:45] [127.0.0.1][5c4f92d0][ExtensionHostConnection] New connection established.
+[05:59:45] [127.0.0.1][5c4f92d0][ExtensionHostConnection] <14501> Launched Extension Host Process.
+New EH opened, aborting shutdown
+[06:04:45] New EH opened, aborting shutdown
+[06:30:07] [127.0.0.1][e68f4633][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[06:30:08] [127.0.0.1][5c4f92d0][ExtensionHostConnection] <14501> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[06:30:08] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[06:30:27] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[06:30:27] Cancelling previous shutdown timeout
+[06:30:27] [127.0.0.1][93e175a8][ManagementConnection] New connection established.
+[06:30:27] [127.0.0.1][e5233a56][ExtensionHostConnection] New connection established.
+[06:30:27] [127.0.0.1][e5233a56][ExtensionHostConnection] <3834> Launched Extension Host Process.
+[06:30:41] [127.0.0.1][93e175a8][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[06:30:42] [127.0.0.1][e5233a56][ExtensionHostConnection] <3834> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[06:30:42] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[06:30:42] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[06:30:44] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[06:30:44] Cancelling previous shutdown timeout
+[06:30:44] [127.0.0.1][304ed710][ManagementConnection] New connection established.
+[06:30:44] Terminal layout retrieved: []
+[06:30:44] [127.0.0.1][8c0039ef][ExtensionHostConnection] New connection established.
+[06:30:44] [127.0.0.1][8c0039ef][ExtensionHostConnection] <3968> Launched Extension Host Process.
+New EH opened, aborting shutdown
+[06:35:44] New EH opened, aborting shutdown
+[10:45:40] Installing extension: zbr.vscode-ansible
+[10:45:42] Downloaded extension: zbr.vscode-ansible undefined
+[10:45:44] Extracted extension to /home/vagrant/.vscode-server/extensions/.zbr.vscode-ansible-0.3.0: zbr.vscode-ansible
+[10:45:44] Renamed to /home/vagrant/.vscode-server/extensions/zbr.vscode-ansible-0.3.0
+[10:45:44] Installation completed. zbr.vscode-ansible
+[10:45:44] Extensions installed successfully: zbr.vscode-ansible
+[10:50:59] Installing extension: vscoss.vscode-ansible
+[10:51:00] Downloaded extension: vscoss.vscode-ansible undefined
+[10:51:00] Extracted extension to /home/vagrant/.vscode-server/extensions/.vscoss.vscode-ansible-0.6.0: vscoss.vscode-ansible
+[10:51:00] Renamed to /home/vagrant/.vscode-server/extensions/vscoss.vscode-ansible-0.6.0
+[10:51:00] Installation completed. vscoss.vscode-ansible
+[10:51:00] Extensions installed successfully: vscoss.vscode-ansible
+[node.js fs] readdir with filetypes failed with error:  [Error: EACCES: permission denied, scandir '/var/empty/sshd'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/var/empty/sshd'
+}
+[node.js fs] readdir with filetypes failed with error:  [Error: EACCES: permission denied, scandir '/var/empty/sshd'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/var/empty/sshd'
+}
+[node.js fs] readdir with filetypes failed with error:  [Error: EACCES: permission denied, scandir '/var/empty/sshd'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/var/empty/sshd'
+}
+[node.js fs] readdir with filetypes failed with error:  [Error: EACCES: permission denied, scandir '/var/lib/rpcbind'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/var/lib/rpcbind'
+}
+[node.js fs] readdir with filetypes failed with error:  [Error: EACCES: permission denied, scandir '/var/lib/rpcbind'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/var/lib/rpcbind'
+}
+[node.js fs] readdir with filetypes failed with error:  [Error: EACCES: permission denied, scandir '/root'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/root'
+}
+[node.js fs] readdir with filetypes failed with error:  [Error: EACCES: permission denied, scandir '/var/empty/sshd'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/var/empty/sshd'
+}
+[node.js fs] readdir with filetypes failed with error:  [Error: EACCES: permission denied, scandir '/var/lib/rpcbind'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/var/lib/rpcbind'
+}
+[node.js fs] readdir with filetypes failed with error:  [Error: EACCES: permission denied, scandir '/root'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/root'
+}
+[node.js fs] readdir with filetypes failed with error:  [Error: EACCES: permission denied, scandir '/root'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/root'
+}
+[node.js fs] readdir with filetypes failed with error:  [Error: EACCES: permission denied, scandir '/root'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/root'
+}
+[node.js fs] readdir with filetypes failed with error:  [Error: EACCES: permission denied, scandir '/var/empty/sshd'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/var/empty/sshd'
+}
+[node.js fs] readdir with filetypes failed with error:  [Error: EACCES: permission denied, scandir '/var/empty/sshd'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/var/empty/sshd'
+}
+[node.js fs] readdir with filetypes failed with error:  [Error: EACCES: permission denied, scandir '/var/lib/rpcbind'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/var/lib/rpcbind'
+}
+[node.js fs] readdir with filetypes failed with error:  [Error: EACCES: permission denied, scandir '/root'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/root'
+}
+[node.js fs] readdir with filetypes failed with error:  [Error: EACCES: permission denied, scandir '/root'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/root'
+}
+[node.js fs] readdir with filetypes failed with error:  [Error: EACCES: permission denied, scandir '/var/empty/sshd'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/var/empty/sshd'
+}
+[12:02:20] Installing extension: zbr.vscode-ansible
+[12:02:20] Downloaded extension: zbr.vscode-ansible undefined
+[12:02:22] Extracted extension to /home/vagrant/.vscode-server/extensions/.zbr.vscode-ansible-0.3.0: zbr.vscode-ansible
+[12:02:22] Renamed to /home/vagrant/.vscode-server/extensions/zbr.vscode-ansible-0.3.0
+[12:02:22] Installation completed. zbr.vscode-ansible
+[12:02:22] Extensions installed successfully: zbr.vscode-ansible

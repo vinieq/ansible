@@ -1,0 +1,31 @@
+---
+- name: New users are created
+  hosts: all
+  become: true
+  vars:
+    web_users:
+      - member
+      - admin
+      - developer
+
+  tasks:
+    - name: Create db users
+      user:
+        name: "{{ item }}"
+        state: present
+      loop: "{{  db_users }}"
+      when: "'databases' in group_names"
+      notify: reboot system
+
+    - name: 
+      user:
+        name: "{{ item }}"
+        state: absent
+      loop: "{{ web_users }}"
+      when: "'webservers' in group_names"
+      notify: reboot system
+  
+
+  handlers:
+    - name: reboot system
+      reboot:

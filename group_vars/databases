@@ -1,0 +1,6 @@
+# vars for the databases
+
+    db_users:
+      - test
+      - dev
+      - qa

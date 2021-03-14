@@ -1,0 +1,60 @@
+[2021-03-14 05:51:45.252] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-03-14 05:51:45.252] [remoteagent] [info] Extension host agent started.
+[2021-03-14 05:51:45.297] [remoteagent] [info] [127.0.0.1][1e52a85e][ManagementConnection] New connection established.
+[2021-03-14 05:51:45.303] [remoteagent] [info] [127.0.0.1][ced0f38d][ExtensionHostConnection] New connection established.
+[2021-03-14 05:51:45.440] [remoteagent] [info] [127.0.0.1][ced0f38d][ExtensionHostConnection] <3278> Launched Extension Host Process.
+[2021-03-14 05:59:44.041] [remoteagent] [info] [127.0.0.1][1e52a85e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-03-14 05:59:45.051] [remoteagent] [info] [127.0.0.1][ced0f38d][ExtensionHostConnection] <3278> Extension Host Process exited with code: 0, signal: null.
+[2021-03-14 05:59:45.052] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-03-14 05:59:45.271] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2021-03-14 05:59:45.271] [remoteagent] [info] Cancelling previous shutdown timeout
+[2021-03-14 05:59:45.319] [remoteagent] [info] [127.0.0.1][e68f4633][ManagementConnection] New connection established.
+[2021-03-14 05:59:45.339] [remoteagent] [info] [127.0.0.1][5c4f92d0][ExtensionHostConnection] New connection established.
+[2021-03-14 05:59:45.366] [remoteagent] [info] [127.0.0.1][5c4f92d0][ExtensionHostConnection] <14501> Launched Extension Host Process.
+[2021-03-14 06:04:45.276] [remoteagent] [info] New EH opened, aborting shutdown
+[2021-03-14 06:30:07.767] [remoteagent] [info] [127.0.0.1][e68f4633][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-03-14 06:30:08.807] [remoteagent] [info] [127.0.0.1][5c4f92d0][ExtensionHostConnection] <14501> Extension Host Process exited with code: 0, signal: null.
+[2021-03-14 06:30:08.807] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-03-14 06:30:27.658] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2021-03-14 06:30:27.658] [remoteagent] [info] Cancelling previous shutdown timeout
+[2021-03-14 06:30:27.699] [remoteagent] [info] [127.0.0.1][93e175a8][ManagementConnection] New connection established.
+[2021-03-14 06:30:27.726] [remoteagent] [info] [127.0.0.1][e5233a56][ExtensionHostConnection] New connection established.
+[2021-03-14 06:30:27.738] [remoteagent] [info] [127.0.0.1][e5233a56][ExtensionHostConnection] <3834> Launched Extension Host Process.
+[2021-03-14 06:30:41.484] [remoteagent] [info] [127.0.0.1][93e175a8][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-03-14 06:30:42.503] [remoteagent] [info] [127.0.0.1][e5233a56][ExtensionHostConnection] <3834> Extension Host Process exited with code: 0, signal: null.
+[2021-03-14 06:30:42.503] [remoteagent] [info] Cancelling previous shutdown timeout
+[2021-03-14 06:30:42.503] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-03-14 06:30:44.133] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2021-03-14 06:30:44.133] [remoteagent] [info] Cancelling previous shutdown timeout
+[2021-03-14 06:30:44.178] [remoteagent] [info] [127.0.0.1][304ed710][ManagementConnection] New connection established.
+[2021-03-14 06:30:44.188] [remoteagent] [info] Terminal layout retrieved: []
+[2021-03-14 06:30:44.188] [remoteagent] [info] [127.0.0.1][8c0039ef][ExtensionHostConnection] New connection established.
+[2021-03-14 06:30:44.200] [remoteagent] [info] [127.0.0.1][8c0039ef][ExtensionHostConnection] <3968> Launched Extension Host Process.
+[2021-03-14 06:35:44.133] [remoteagent] [info] New EH opened, aborting shutdown
+[2021-03-14 10:45:40.911] [remoteagent] [info] Installing extension: zbr.vscode-ansible
+[2021-03-14 10:45:42.508] [remoteagent] [info] Downloaded extension: zbr.vscode-ansible undefined
+[2021-03-14 10:45:44.005] [remoteagent] [info] Extracted extension to /home/vagrant/.vscode-server/extensions/.zbr.vscode-ansible-0.3.0: zbr.vscode-ansible
+[2021-03-14 10:45:44.006] [remoteagent] [info] Renamed to /home/vagrant/.vscode-server/extensions/zbr.vscode-ansible-0.3.0
+[2021-03-14 10:45:44.007] [remoteagent] [info] Installation completed. zbr.vscode-ansible
+[2021-03-14 10:45:44.016] [remoteagent] [info] Extensions installed successfully: zbr.vscode-ansible
+[2021-03-14 10:50:59.741] [remoteagent] [info] Installing extension: vscoss.vscode-ansible
+[2021-03-14 10:51:00.283] [remoteagent] [info] Downloaded extension: vscoss.vscode-ansible undefined
+[2021-03-14 10:51:00.313] [remoteagent] [info] Extracted extension to /home/vagrant/.vscode-server/extensions/.vscoss.vscode-ansible-0.6.0: vscoss.vscode-ansible
+[2021-03-14 10:51:00.313] [remoteagent] [info] Renamed to /home/vagrant/.vscode-server/extensions/vscoss.vscode-ansible-0.6.0
+[2021-03-14 10:51:00.314] [remoteagent] [info] Installation completed. vscoss.vscode-ansible
+[2021-03-14 10:51:00.315] [remoteagent] [info] Extensions installed successfully: vscoss.vscode-ansible
+[2021-03-14 12:02:20.929] [remoteagent] [info] Installing extension: zbr.vscode-ansible
+[2021-03-14 12:02:20.930] [remoteagent] [info] Downloaded extension: zbr.vscode-ansible undefined
+[2021-03-14 12:02:22.146] [remoteagent] [info] Extracted extension to /home/vagrant/.vscode-server/extensions/.zbr.vscode-ansible-0.3.0: zbr.vscode-ansible
+[2021-03-14 12:02:22.146] [remoteagent] [info] Renamed to /home/vagrant/.vscode-server/extensions/zbr.vscode-ansible-0.3.0
+[2021-03-14 12:02:22.153] [remoteagent] [info] Installation completed. zbr.vscode-ansible
+[2021-03-14 12:02:22.163] [remoteagent] [info] Extensions installed successfully: zbr.vscode-ansible
